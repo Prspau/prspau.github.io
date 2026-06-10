@@ -200,21 +200,30 @@ export type TimelineItem = {
 
 export const timeline: TimelineItem[] = [
   {
-    period: "2020 — 2024",
+    period: "2020 — 2022",
+    title: "Ciclo Formativo de Grado Superior en Administración y finanzas",
+    place: "Col·legi Badalonès",
+    description:
+      "Formación en gestión empresarial, contabilidad, finanzas y administración, complementando la formación técnica con una visión de negocio.",
+    tags: ["Gestión Empresarial", "Contabilidad", "Finanzas"],
+    kind: "education",
+  },
+  {
+    period: "2022 — 2023",
+    title: "Ciclo Formativo en Comercio Internacional",
+    place: "Col·legi Badalonès",
+    description:
+      "Formación en comercio exterior, logística internacional, marketing global y gestión aduanera, aportando una perspectiva global y estratégica a los proyectos técnicos.",
+    tags: ["Comercio Internacional", "Logística", "Marketing"],
+    kind: "education",
+  },
+  {
+    period: "2022 — 2027",
     title: "Grado en Ingeniería Informática",
     place: "Universidad",
     description:
       "Formación integral en software, sistemas, redes, IA y seguridad. Múltiples proyectos prácticos de ingeniería.",
     tags: ["Software", "Sistemas", "IA"],
-    kind: "education",
-  },
-  {
-    period: "2024",
-    title: "Especialización en IA y Computer Vision",
-    place: "Itinerario / Mención",
-    description:
-      "Profundización en aprendizaje automático, visión por computador y análisis de datos aplicado.",
-    tags: ["Machine Learning", "Computer Vision"],
     kind: "education",
   },
   {
