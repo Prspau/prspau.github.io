@@ -23,7 +23,7 @@ export default function Experience() {
         <SectionHeading
           kicker="// trayectoria"
           title="Experiencia & Formación"
-          subtitle="Mi recorrido académico y profesional en ingeniería informática."
+          subtitle="Mi recorrido académico y profesional."
         />
 
         <div className="relative">
